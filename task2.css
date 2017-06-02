@@ -1,0 +1,181 @@
+/*Custom CSS*/
+
+body,h1,ul,li,p
+{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow-x: hidden;
+}
+.homepage {
+    height: 100vh;
+    background-image: url("1.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.lastpage{
+    text-decoration:none;
+    margin: 0;
+    padding:0;
+
+}
+.lastpage ul
+{
+    margin-top: 50px;
+    float: right;
+}
+.lastpage li ,.lastpage li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    font-weight:bold;
+    width: 397px;
+    margin-left: -299px;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top:15px;
+}
+.thirdpage {
+    height: 100vh;
+    background-image: url("android-apple3-fade-1920.jpg");
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+}
+.h{
+    position:absolute;
+    top:0;
+    color:dodgerblue;
+    font-size: 50px;
+    margin-top: 20px;
+    left:80px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+
+}
+@keyframes example {
+    0%   {color: #1a237e; left:0px; top:0px;}
+    25%  {color: #00e5ff; left:100px; top:0px;}
+    50%  {color: #43a047; left:100px; top:100px;}
+    75%  {color: aqua; left:0px; top:100px;}
+    100% {color: #0099CC; left:0px; top:0px;}
+}
+.homepage ul{
+    float:right;
+    margin-top: 40px;  }
+.homepage li ,.homepage li a{
+    display: inline;
+    color: black;
+    text-align: center;
+    font-weight:bold;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+
+}
+.homepage ul li a:hover {
+    color:  #aeea00 ;
+}
+li a.active {
+    color: cornflowerblue;
+}
+.fourthpage{
+    border:5px solid transparent;
+    border-image: url("0c95e0770d4ab21e36e008a83fc0185a.jpg")300 round;
+    width: 309px;
+    box-shadow: 10px 10px 5px grey;
+    height:190px;
+    padding: 50px;
+    margin:auto;
+
+}
+.client
+{
+    border:5px solid transparent;
+    text-align: center;
+    width: 100%;
+    color:black;
+    height:auto;
+    margin-top:50px;
+    font-size: 20px;
+
+}
+.icon1{
+    border:5px solid transparent;
+    width: 350px;
+    height:190px;
+    padding: 50px;
+    margin-left: 800px;
+    margin-top: 119px;
+    text-align:center;
+    font-size:30px;
+}
+.icon2
+{
+    border:5px solid transparent;
+    width: 350px;
+    height:190px;
+    padding: 50px;
+    margin:100px;
+    float:left;
+    text-align:center;
+    font-size:30px;
+}
+.row{
+    margin:0;
+    padding:0;
+    float:left;
+}
+.ab{
+    margin:auto;
+    padding:0;
+    width:1051px;
+    text-align: center;
+    text-decoration:none;
+    list-style-type: none;
+    display: block;
+
+}
+.abc{
+    float:left;
+    border-radius: 15px 50px;
+    font-family: sans-serif;
+    width:100px;
+    padding:20px;
+    height:90px;
+    border:5px solid transparent;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.iphone
+{
+    font-size: 30px;
+    margin-top:186px;
+    width:233px;
+    margin-left:348px;
+    border:5px solid transparent;
+    float: left;
+}
+.foot
+{
+    background-color: aquamarine;
+}
+.fl
+{
+    float:left;
+}
+.fr
+{
+    float:right;
+}
+.box
+{
+    margin: auto;
+    width:70%;
+    margin-top: 5%;
+}
